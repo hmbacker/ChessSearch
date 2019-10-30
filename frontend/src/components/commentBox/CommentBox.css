@@ -1,0 +1,9 @@
+.comment-box {
+    grid-area: "comments";
+}
+
+.comment-list {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: left;
+}

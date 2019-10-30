@@ -1,0 +1,42 @@
+.searchpage {
+  text-align: center;
+}
+
+.searchpage-header {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.searchpage-section {
+  align-items: center;
+  justify-content: center;
+}
+
+.graph-container {
+  max-height: 250px;
+
+}
+
+.searchpage-footer {
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.image-chess {
+  max-height: 30vh;
+  size: calc(10px + 2vmin);
+}
+
+footer a:link {
+  color: skyblue;
+}
+
+footer a:visited {
+  color: rgb(113, 177, 202);
+}

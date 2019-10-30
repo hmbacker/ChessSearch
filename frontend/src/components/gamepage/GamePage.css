@@ -1,0 +1,69 @@
+.gamepage {
+  height: auto;
+}
+
+.gamepage-header {
+  display: flex;
+  height: 8vh;
+  align-items: center;
+  text-align: center;
+  font-size: calc(20px + 1vmin);
+  padding: 3%;
+  flex-direction: row;
+}
+
+.gamepage-section {
+  display: grid;
+  grid-template-areas: "text moves comments";
+  height: auto;
+  width: auto;
+  padding: 5%;
+}
+
+.gamepage-footer {
+  align-items: center;
+  justify-content: center;
+}
+
+.gamepage-section-text {
+  grid-area: "text";
+  max-width: 50%;
+  text-align: left;
+}
+
+.gamepage-section-moves {
+  grid-area: "moves";
+  padding: 5%;
+  justify-content: left;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.gamepage-section-moves-h {
+  text-align: center;
+  height: 4vh;
+  width: auto;
+}
+.gamepage-section-moves-t {
+  display: flex;
+  text-align: right;
+  width: auto;
+  flex-wrap: wrap;
+}
+
+.gamepage-section-moves-move {
+  padding: 1%;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  max-height: 5vh;
+  width: 5vh;
+}
+
+h2 {
+  width: 80%;
+  position: absolute;
+}

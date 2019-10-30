@@ -1,0 +1,61 @@
+{
+  "name": "project3",
+  "homepage": "http://it2810-55.idi.ntnu.no/prosjekt3",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://it2810-55.idi.ntnu.no:3001/prosjekt3",
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-jest": "^24.9.0",
+    "cypress": "^3.5.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "identity-obj-proxy": "^3.0.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-test-renderer": "^16.11.0",
+    "redux": "^4.0.4",
+    "typescript": "^3.6.4",
+    "victory": "^33.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "jest": {
+    "verbose": true,
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/",
+      "<src>/node_modules/"
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less|svg)$": "identity-obj-proxy"
+    },
+    "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js"
+  }
+}

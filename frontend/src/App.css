@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(49, 50, 56);
+}
+
+.app {
+  color: white;
+  text-align: center;
+  height: 100vh;
+}
+
+.search,
+.game {
+  position: absolute;
+  top: 20px;
+}
+.search {
+  left: 40px;
+}
+
+.game {
+  right: 40px;
+}
+
+.home {
+  max-height: 8vh;
+}

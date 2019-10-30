@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+"<ContextProvider value={{...}}>
+  <ResultBox store={{...}} isFetching={false} mostRecentParamObject={{...}} results={{...}} fetchSearchResults={[Function: fetchSearchResults]} fetchMoreSearchResults={[Function: fetchMoreSearchResults]} />
+</ContextProvider>"
+`;

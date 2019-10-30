@@ -1,0 +1,51 @@
+.result-box {
+  border-collapse: collapse;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.result-box a:link {
+  color: skyblue;
+}
+
+.result-box a:visited {
+  color: skyblue;
+}
+
+.result-box a:hover {
+  color: rgb(191, 237, 255);
+}
+
+.result-row td, .result-header-cell {
+  border: 2px groove white;
+  text-align: left;
+  padding: 2px 4px;
+}
+
+.result-box-header {
+  font-weight: bold;
+}
+
+.result-header-cell:hover {
+  cursor: pointer;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.loading-symbol-cell {
+  text-align: center;
+  padding: 10px;
+}
+
+.loading-symbol-cell img {
+  display: inline-block;
+  max-width: 50px;
+  animation: rotating 0.5s linear infinite;
+}

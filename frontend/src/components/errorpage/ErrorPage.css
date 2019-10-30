@@ -1,0 +1,16 @@
+.error {
+  background-color: rgb(31, 32, 36);
+  height: 100vh;
+  align-content: center;
+  display: table;
+}
+.error-p {
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  display: table-cell;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}

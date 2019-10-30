@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/prosjekt3/static/css/main.6b3a50f4.chunk.css",
+    "main.js": "/prosjekt3/static/js/main.c2833c1f.chunk.js",
+    "main.js.map": "/prosjekt3/static/js/main.c2833c1f.chunk.js.map",
+    "runtime-main.js": "/prosjekt3/static/js/runtime-main.a7139435.js",
+    "runtime-main.js.map": "/prosjekt3/static/js/runtime-main.a7139435.js.map",
+    "static/js/2.9d88819c.chunk.js": "/prosjekt3/static/js/2.9d88819c.chunk.js",
+    "static/js/2.9d88819c.chunk.js.map": "/prosjekt3/static/js/2.9d88819c.chunk.js.map",
+    "index.html": "/prosjekt3/index.html",
+    "precache-manifest.ac58c0dda49f24ceba935866d25217bc.js": "/prosjekt3/precache-manifest.ac58c0dda49f24ceba935866d25217bc.js",
+    "service-worker.js": "/prosjekt3/service-worker.js",
+    "static/css/main.6b3a50f4.chunk.css.map": "/prosjekt3/static/css/main.6b3a50f4.chunk.css.map",
+    "static/media/chess_pieces.svg": "/prosjekt3/static/media/chess_pieces.2c242c73.svg",
+    "static/media/loading.svg": "/prosjekt3/static/media/loading.33aa6267.svg",
+    "static/media/search.svg": "/prosjekt3/static/media/search.aa327644.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7139435.js",
+    "static/js/2.9d88819c.chunk.js",
+    "static/css/main.6b3a50f4.chunk.css",
+    "static/js/main.c2833c1f.chunk.js"
+  ]
+}

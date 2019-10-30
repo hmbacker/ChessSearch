@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+"<div className=\\"error\\">
+  <Link className=\\"search\\" to=\\"/\\">
+    <img src={{...}} alt=\\"white chess knight\\" />
+  </Link>
+  <p className=\\"error-p\\">
+    Page not found
+  </p>
+</div>"
+`;

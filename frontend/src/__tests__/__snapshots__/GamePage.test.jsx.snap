@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+"<ContextProvider value={{...}}>
+  <GamePage store={{...}} game={[undefined]} match={[undefined]} fetchGame={[Function: fetchGame]} />
+</ContextProvider>"
+`;

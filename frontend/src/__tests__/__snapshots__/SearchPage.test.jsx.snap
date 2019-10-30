@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+"<div className=\\"searchpage\\">
+  <header className=\\"searchpage-header\\">
+    <h1>
+      Chess Search
+    </h1>
+  </header>
+  <section className=\\"searchpage-section\\">
+    <img src={{...}} className=\\"image-chess\\" alt=\\"white chess knight\\" />
+    <Connect(SearchBox) />
+    <Connect(Graph) />
+    <Connect(ResultBox) />
+  </section>
+  <footer className=\\"searchpage-footer\\">
+    <div>
+      Loading icon made by
+       
+      <a href=\\"https://www.flaticon.com/authors/roundicons\\" title=\\"Roundicons\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+        Roundicons
+      </a>
+       
+      from
+       
+      <a href=\\"https://www.flaticon.com/\\" title=\\"Flaticon\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+        www.flaticon.com
+      </a>
+    </div>
+  </footer>
+</div>"
+`;
